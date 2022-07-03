@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "G": {
+      "item": "minecraft:potato"
+    },
+    "T": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "D": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "pattern": [
+    "GDG",
+    "TET",
+    "GTG"
+  ],
+  "result": {
+    "item": "technototem:totem_of_technoblade"
+  }
+}

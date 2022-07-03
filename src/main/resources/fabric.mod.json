@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "technototem",
+  "version": "${version}",
+
+  "name": "TechnoTotem",
+  "description": "Mod as a tribute to the Great Technoblade for his unbelievable courage against cancer.",
+  "authors": [
+    "pkstDev"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/technototem/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "committee.nova.technototem.TechnoTotem"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
